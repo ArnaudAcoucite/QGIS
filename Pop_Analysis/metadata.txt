@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Pop_Analysis
+qgisMinimumVersion=3.0
+description=Analyse croisée de la population avec les niveau de bruit
+version=0.1
+author=Acoucité
+email=sebastien.carra@acoucite.org
+
+about=Dans le cadre de la directive 2002/49/CE, un élément de rendu est une analyse croisée de la population par niveau de bruit selon les indicateurs Lden et Ln pour chaque infrastructure ciblé. Cet outil permet de réaliser rapidement le tableau à partir d'une couche shape munie d'attributs de population, Lden et Ln.
+
+tracker=http://bugs
+repository=http://repo
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python
+
+homepage=http://homepage
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
