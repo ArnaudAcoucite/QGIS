@@ -105,7 +105,7 @@ for feature in layer.getFeatures():
         # géométrie est inchangée
         length_facade = geometry_facade.length()
         if length_facade < 2.5:  # avant de faire d'autres opérations, on évalue si la façade à une longueur inférieure
-            # à 2 m
+            # à 2.5 m
             is_common_boundary = False  # initialisation d'une variable booléenne pour différencier un segment commun ou
             # non à un autre bâtiment
             intersect_ids = index.intersects(geometry_facade_bb)  # cette étape permet de récupérer tous les
